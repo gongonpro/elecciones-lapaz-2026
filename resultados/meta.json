@@ -1,0 +1,476 @@
+{
+  "actualizado": "2026-03-27T05:18:24.872016+00:00",
+  "titulo": {},
+  "departamento": "La Paz",
+  "department_id": 2,
+  "provincias": [
+    {
+      "id": 15,
+      "nombre": "Abel Iturralde",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Ixiamas"
+        },
+        {
+          "id": 2,
+          "nombre": "San Buenaventura"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Aroma",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Ayo Ayo"
+        },
+        {
+          "id": 4,
+          "nombre": "Calamarca"
+        },
+        {
+          "id": 7,
+          "nombre": "Collana"
+        },
+        {
+          "id": 6,
+          "nombre": "Colquencha"
+        },
+        {
+          "id": 5,
+          "nombre": "Patacamaya"
+        },
+        {
+          "id": 1,
+          "nombre": "Sicasica"
+        },
+        {
+          "id": 2,
+          "nombre": "Umala"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Bautista Saavedra",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Charazani"
+        },
+        {
+          "id": 2,
+          "nombre": "Curva"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Camacho",
+      "municipios": [
+        {
+          "id": 5,
+          "nombre": "Escoma"
+        },
+        {
+          "id": 4,
+          "nombre": "Humanata"
+        },
+        {
+          "id": 2,
+          "nombre": "Mocomoco"
+        },
+        {
+          "id": 1,
+          "nombre": "Puerto Acosta"
+        },
+        {
+          "id": 3,
+          "nombre": "Puerto Mayor de Carabuco"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Caranavi",
+      "municipios": [
+        {
+          "id": 2,
+          "nombre": "Alto Beni"
+        },
+        {
+          "id": 1,
+          "nombre": "Caranavi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Franz Tamayo",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Apolo"
+        },
+        {
+          "id": 2,
+          "nombre": "Pelechuco"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "General José Manuel Pando",
+      "municipios": [
+        {
+          "id": 2,
+          "nombre": "Catacora"
+        },
+        {
+          "id": 1,
+          "nombre": "Santiago de Machaca"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Gualberto Villarroel",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Chacarilla"
+        },
+        {
+          "id": 2,
+          "nombre": "Papel Pampa"
+        },
+        {
+          "id": 1,
+          "nombre": "San Pedro de Curahuara"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Ingavi",
+      "municipios": [
+        {
+          "id": 4,
+          "nombre": "Desaguadero"
+        },
+        {
+          "id": 6,
+          "nombre": "Jesús de Machaka"
+        },
+        {
+          "id": 5,
+          "nombre": "La (Marka) San Andrés de Machaca"
+        },
+        {
+          "id": 2,
+          "nombre": "Puerto Mayor de Guaqui"
+        },
+        {
+          "id": 7,
+          "nombre": "Taraco"
+        },
+        {
+          "id": 3,
+          "nombre": "Tiahuanacu"
+        },
+        {
+          "id": 1,
+          "nombre": "Viacha"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Inquisivi",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Cajuata"
+        },
+        {
+          "id": 4,
+          "nombre": "Colquiri"
+        },
+        {
+          "id": 5,
+          "nombre": "Ichoca"
+        },
+        {
+          "id": 1,
+          "nombre": "Inquisivi"
+        },
+        {
+          "id": 2,
+          "nombre": "Quime"
+        },
+        {
+          "id": 6,
+          "nombre": "Villa Libertad Licoma"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Larecaja",
+      "municipios": [
+        {
+          "id": 5,
+          "nombre": "Combaya"
+        },
+        {
+          "id": 2,
+          "nombre": "Guanay"
+        },
+        {
+          "id": 7,
+          "nombre": "Mapiri"
+        },
+        {
+          "id": 4,
+          "nombre": "Quiabaya"
+        },
+        {
+          "id": 1,
+          "nombre": "Sorata"
+        },
+        {
+          "id": 3,
+          "nombre": "Tacacoma"
+        },
+        {
+          "id": 8,
+          "nombre": "Teoponte"
+        },
+        {
+          "id": 6,
+          "nombre": "Tipuani"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Loayza",
+      "municipios": [
+        {
+          "id": 5,
+          "nombre": "Cairoma"
+        },
+        {
+          "id": 1,
+          "nombre": "Luribay"
+        },
+        {
+          "id": 4,
+          "nombre": "Malla"
+        },
+        {
+          "id": 2,
+          "nombre": "Sapahaqui"
+        },
+        {
+          "id": 3,
+          "nombre": "Yaco"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Los Andes",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Batallas"
+        },
+        {
+          "id": 2,
+          "nombre": "Laja"
+        },
+        {
+          "id": 1,
+          "nombre": "Pucarani"
+        },
+        {
+          "id": 4,
+          "nombre": "Puerto Pérez"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "Manco Kapac",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Copacabana"
+        },
+        {
+          "id": 2,
+          "nombre": "San Pedro de Tiquina"
+        },
+        {
+          "id": 3,
+          "nombre": "Tito Yupanqui"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Muñecas",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Aucapata"
+        },
+        {
+          "id": 2,
+          "nombre": "Ayata"
+        },
+        {
+          "id": 1,
+          "nombre": "Chuma"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nombre": "Murillo",
+      "municipios": [
+        {
+          "id": 4,
+          "nombre": "Achocalla"
+        },
+        {
+          "id": 5,
+          "nombre": "El Alto"
+        },
+        {
+          "id": 3,
+          "nombre": "Mecapaca"
+        },
+        {
+          "id": 1,
+          "nombre": "Nuestra Señora de La Paz"
+        },
+        {
+          "id": 2,
+          "nombre": "Palca"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Nor Yungas",
+      "municipios": [
+        {
+          "id": 2,
+          "nombre": "Coripata"
+        },
+        {
+          "id": 1,
+          "nombre": "Coroico"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Omasuyos",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Achacachi"
+        },
+        {
+          "id": 3,
+          "nombre": "Chua Cocani"
+        },
+        {
+          "id": 4,
+          "nombre": "Huarina"
+        },
+        {
+          "id": 6,
+          "nombre": "Huatajata"
+        },
+        {
+          "id": 5,
+          "nombre": "Santiago de Huata"
+        },
+        {
+          "id": 2,
+          "nombre": "Villa Ancoraimes"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Pacajes",
+      "municipios": [
+        {
+          "id": 3,
+          "nombre": "Calacoto"
+        },
+        {
+          "id": 2,
+          "nombre": "Caquiaviri"
+        },
+        {
+          "id": 5,
+          "nombre": "Charaña"
+        },
+        {
+          "id": 4,
+          "nombre": "Comanche"
+        },
+        {
+          "id": 1,
+          "nombre": "Corocoro"
+        },
+        {
+          "id": 7,
+          "nombre": "Nazacara de Pacajes"
+        },
+        {
+          "id": 8,
+          "nombre": "Santiago de Callapa"
+        },
+        {
+          "id": 6,
+          "nombre": "Waldo Ballivian"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Sud Yungas",
+      "municipios": [
+        {
+          "id": 1,
+          "nombre": "Chulumani"
+        },
+        {
+          "id": 2,
+          "nombre": "Irupana"
+        },
+        {
+          "id": 5,
+          "nombre": "La Asunta"
+        },
+        {
+          "id": 4,
+          "nombre": "Palos Blancos"
+        },
+        {
+          "id": 3,
+          "nombre": "Yanacachi"
+        }
+      ]
+    }
+  ]
+}

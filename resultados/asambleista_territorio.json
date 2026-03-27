@@ -1,0 +1,3874 @@
+{
+  "actualizado": "2026-03-27T05:18:24.872016+00:00",
+  "scope": "province",
+  "provincias": {
+    "Abel Iturralde": {
+      "provincia_id": 15,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 5824,
+            "porcentaje": 63.02
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 2807,
+            "porcentaje": 30.37
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 611,
+            "porcentaje": 6.61
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 9242,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 11862,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 11862,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 58,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 58,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 564,
+            "porcien": 9.68,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 428,
+            "porcien": 7.35,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 84,
+            "porcien": 1.44,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1216,
+            "porcien": 20.88,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 629,
+            "porcien": 10.8,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 786,
+            "porcien": 13.5,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 763,
+            "porcien": 13.1,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 196,
+            "porcien": 3.37,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 162,
+            "porcien": 2.78,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 251,
+            "porcien": 4.31,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 745,
+            "porcien": 12.79,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Aroma": {
+      "provincia_id": 13,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 27495,
+            "porcentaje": 59.17
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 13058,
+            "porcentaje": 28.1
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 5915,
+            "porcentaje": 12.73
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 46468,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 52123,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 52123,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 251,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 251,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 1111,
+            "porcien": 4.04,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 2301,
+            "porcien": 8.37,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1798,
+            "porcien": 6.54,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 3577,
+            "porcien": 13.01,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 3156,
+            "porcien": 11.48,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 2478,
+            "porcien": 9.01,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 966,
+            "porcien": 3.51,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 3418,
+            "porcien": 12.43,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1390,
+            "porcien": 5.06,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 2273,
+            "porcien": 8.27,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 1429,
+            "porcien": 5.2,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 1590,
+            "porcien": 5.78,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 541,
+            "porcien": 1.97,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 1467,
+            "porcien": 5.34,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Bautista Saavedra": {
+      "provincia_id": 16,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 4240,
+            "porcentaje": 72.63
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 1027,
+            "porcentaje": 17.59
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 571,
+            "porcentaje": 9.78
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 5838,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 6331,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 6331,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 45,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 45,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 317,
+            "porcien": 7.48,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 267,
+            "porcien": 6.3,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1387,
+            "porcien": 32.71,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 142,
+            "porcien": 3.35,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 967,
+            "porcien": 22.81,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 268,
+            "porcien": 6.32,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 319,
+            "porcien": 7.52,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 573,
+            "porcien": 13.51,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Camacho": {
+      "provincia_id": 4,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 14240,
+            "porcentaje": 62.32
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 5492,
+            "porcentaje": 24.03
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 3119,
+            "porcentaje": 13.65
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 22851,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 25336,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 25336,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 128,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 128,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 1364,
+            "porcien": 9.58,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 742,
+            "porcien": 5.21,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 581,
+            "porcien": 4.08,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 725,
+            "porcien": 5.09,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1684,
+            "porcien": 11.83,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 173,
+            "porcien": 1.21,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 1210,
+            "porcien": 8.5,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1840,
+            "porcien": 12.92,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 369,
+            "porcien": 2.59,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1378,
+            "porcien": 9.68,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 345,
+            "porcien": 2.42,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 466,
+            "porcien": 3.27,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 3363,
+            "porcien": 23.62,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Caranavi": {
+      "provincia_id": 20,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 17296,
+            "porcentaje": 55.4
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 10743,
+            "porcentaje": 34.41
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 3183,
+            "porcentaje": 10.19
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 31222,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 36325,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 36325,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 169,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 169,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 721,
+            "porcien": 4.17,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 2039,
+            "porcien": 11.79,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 3562,
+            "porcien": 20.59,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1446,
+            "porcien": 8.36,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 2608,
+            "porcien": 15.08,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1071,
+            "porcien": 6.19,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 1593,
+            "porcien": 9.21,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1318,
+            "porcien": 7.62,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1402,
+            "porcien": 8.11,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 272,
+            "porcien": 1.57,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 409,
+            "porcien": 2.36,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 855,
+            "porcien": 4.94,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Franz Tamayo": {
+      "provincia_id": 7,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 6190,
+            "porcentaje": 50.05
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 4497,
+            "porcentaje": 36.36
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 1681,
+            "porcentaje": 13.59
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 12368,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 14569,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 14569,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 77,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 77,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 91,
+            "porcien": 1.47,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 335,
+            "porcien": 5.41,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 2554,
+            "porcien": 41.26,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 181,
+            "porcien": 2.92,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 1326,
+            "porcien": 21.42,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 613,
+            "porcien": 9.9,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 1090,
+            "porcien": 17.61,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "General José Manuel Pando": {
+      "provincia_id": 19,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 1965,
+            "porcentaje": 78.6
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 299,
+            "porcentaje": 11.96
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 236,
+            "porcentaje": 9.44
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 2500,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 2754,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 2754,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 17,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 17,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 259,
+            "porcien": 13.18,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 150,
+            "porcien": 7.63,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 716,
+            "porcien": 36.44,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 46,
+            "porcien": 2.34,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 7,
+            "porcien": 0.36,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 119,
+            "porcien": 6.06,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 177,
+            "porcien": 9.01,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 367,
+            "porcien": 18.68,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 124,
+            "porcien": 6.31,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Gualberto Villarroel": {
+      "provincia_id": 18,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 5370,
+            "porcentaje": 74.18
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 1286,
+            "porcentaje": 17.76
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 583,
+            "porcentaje": 8.05
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 7239,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 7996,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 7996,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 45,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 45,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 673,
+            "porcien": 12.53,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 111,
+            "porcien": 2.07,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 401,
+            "porcien": 7.47,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 337,
+            "porcien": 6.28,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 233,
+            "porcien": 4.34,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 237,
+            "porcien": 4.41,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 860,
+            "porcien": 16.01,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 519,
+            "porcien": 9.66,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 135,
+            "porcien": 2.51,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 75,
+            "porcien": 1.4,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 487,
+            "porcien": 9.07,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 691,
+            "porcien": 12.87,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 611,
+            "porcien": 11.38,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Ingavi": {
+      "provincia_id": 8,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 50470,
+            "porcentaje": 59.66
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 22293,
+            "porcentaje": 26.35
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 11830,
+            "porcentaje": 13.98
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 84593,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 94309,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 94309,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 425,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 425,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 3898,
+            "porcien": 7.72,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 1473,
+            "porcien": 2.92,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 2169,
+            "porcien": 4.3,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 4111,
+            "porcien": 8.15,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 5231,
+            "porcien": 10.36,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 6955,
+            "porcien": 13.78,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 989,
+            "porcien": 1.96,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 1407,
+            "porcien": 2.79,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1358,
+            "porcien": 2.69,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 6526,
+            "porcien": 12.93,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1117,
+            "porcien": 2.21,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 4485,
+            "porcien": 8.89,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 550,
+            "porcien": 1.09,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 4233,
+            "porcien": 8.39,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 5968,
+            "porcien": 11.82,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:25"
+      }
+    },
+    "Inquisivi": {
+      "provincia_id": 10,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 18053,
+            "porcentaje": 57.98
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 9239,
+            "porcentaje": 29.67
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 3846,
+            "porcentaje": 12.35
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 31138,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 34820,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 34820,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 167,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 167,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 1197,
+            "porcien": 6.63,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 3652,
+            "porcien": 20.23,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 1339,
+            "porcien": 7.42,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1056,
+            "porcien": 5.85,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 976,
+            "porcien": 5.41,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1084,
+            "porcien": 6,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 475,
+            "porcien": 2.63,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 243,
+            "porcien": 1.35,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1093,
+            "porcien": 6.05,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 429,
+            "porcien": 2.38,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 1438,
+            "porcien": 7.97,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 3648,
+            "porcien": 20.21,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 211,
+            "porcien": 1.17,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 1212,
+            "porcien": 6.71,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Larecaja": {
+      "provincia_id": 6,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 22771,
+            "porcentaje": 56.71
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 13734,
+            "porcentaje": 34.21
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 3645,
+            "porcentaje": 9.08
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 40150,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 46271,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 46271,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 226,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 226,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 4230,
+            "porcien": 18.58,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 1177,
+            "porcien": 5.17,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 2210,
+            "porcien": 9.71,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 5277,
+            "porcien": 23.17,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 1399,
+            "porcien": 6.14,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 900,
+            "porcien": 3.95,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 2700,
+            "porcien": 11.86,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1021,
+            "porcien": 4.48,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 619,
+            "porcien": 2.72,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 1024,
+            "porcien": 4.5,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 2214,
+            "porcien": 9.72,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Loayza": {
+      "provincia_id": 9,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 13535,
+            "porcentaje": 61.96
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 6249,
+            "porcentaje": 28.61
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 2061,
+            "porcentaje": 9.43
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 21845,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 24221,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 24221,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 126,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 126,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 227,
+            "porcien": 1.68,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 835,
+            "porcien": 6.17,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 482,
+            "porcien": 3.56,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1901,
+            "porcien": 14.05,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1355,
+            "porcien": 10.01,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 233,
+            "porcien": 1.72,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 1413,
+            "porcien": 10.44,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 200,
+            "porcien": 1.48,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 760,
+            "porcien": 5.62,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 319,
+            "porcien": 2.36,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1935,
+            "porcien": 14.3,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 1034,
+            "porcien": 7.64,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 1002,
+            "porcien": 7.4,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 159,
+            "porcien": 1.17,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 1680,
+            "porcien": 12.41,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Los Andes": {
+      "provincia_id": 12,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 26004,
+            "porcentaje": 58
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 12873,
+            "porcentaje": 28.71
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 5959,
+            "porcentaje": 13.29
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 44836,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 48283,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 48283,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 221,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 221,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 876,
+            "porcien": 3.37,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 1846,
+            "porcien": 7.1,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1940,
+            "porcien": 7.46,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1549,
+            "porcien": 5.96,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1524,
+            "porcien": 5.86,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 2367,
+            "porcien": 9.1,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 850,
+            "porcien": 3.27,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1702,
+            "porcien": 6.55,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 3319,
+            "porcien": 12.76,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 2762,
+            "porcien": 10.62,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1329,
+            "porcien": 5.11,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1245,
+            "porcien": 4.79,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 742,
+            "porcien": 2.85,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 1426,
+            "porcien": 5.48,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 2527,
+            "porcien": 9.72,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Manco Kapac": {
+      "provincia_id": 17,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 6410,
+            "porcentaje": 54.89
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 4159,
+            "porcentaje": 35.61
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 1109,
+            "porcentaje": 9.5
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 11678,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 13239,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 13239,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 62,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 62,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 189,
+            "porcien": 2.95,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 1210,
+            "porcien": 18.88,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 335,
+            "porcien": 5.23,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1607,
+            "porcien": 25.07,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1904,
+            "porcien": 29.7,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 418,
+            "porcien": 6.52,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 262,
+            "porcien": 4.09,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 485,
+            "porcien": 7.57,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Muñecas": {
+      "provincia_id": 5,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 6924,
+            "porcentaje": 65.49
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 2601,
+            "porcentaje": 24.6
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 1048,
+            "porcentaje": 9.91
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 10573,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 11893,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 11893,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 60,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 60,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 979,
+            "porcien": 14.14,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 180,
+            "porcien": 2.6,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1565,
+            "porcien": 22.6,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 828,
+            "porcien": 11.96,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 230,
+            "porcien": 3.32,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 611,
+            "porcien": 8.82,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 1440,
+            "porcien": 20.8,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 1091,
+            "porcien": 15.76,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Murillo": {
+      "provincia_id": 1,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 872530,
+            "porcentaje": 67.68
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 243938,
+            "porcentaje": 18.92
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 172636,
+            "porcentaje": 13.39
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 1289104,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 1435466,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 1435466,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 6167,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 6167,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 48234,
+            "porcien": 5.53,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 64292,
+            "porcien": 7.37,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 19272,
+            "porcien": 2.21,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 104511,
+            "porcien": 11.98,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 174421,
+            "porcien": 19.99,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 44705,
+            "porcien": 5.12,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 34164,
+            "porcien": 3.92,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 27209,
+            "porcien": 3.12,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 60524,
+            "porcien": 6.94,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 31209,
+            "porcien": 3.58,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 41833,
+            "porcien": 4.79,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 27812,
+            "porcien": 3.19,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 24511,
+            "porcien": 2.81,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 15706,
+            "porcien": 1.8,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 40088,
+            "porcien": 4.59,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 71266,
+            "porcien": 8.17,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 42773,
+            "porcien": 4.9,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Nor Yungas": {
+      "provincia_id": 14,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 15169,
+            "porcentaje": 68.69
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 4958,
+            "porcentaje": 22.45
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 1957,
+            "porcentaje": 8.86
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 22084,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 24934,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 24934,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 115,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 115,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 909,
+            "porcien": 5.99,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 1038,
+            "porcien": 6.84,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 735,
+            "porcien": 4.85,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 957,
+            "porcien": 6.31,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1961,
+            "porcien": 12.93,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1833,
+            "porcien": 12.08,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 892,
+            "porcien": 5.88,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 545,
+            "porcien": 3.59,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 934,
+            "porcien": 6.16,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 726,
+            "porcien": 4.79,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1095,
+            "porcien": 7.22,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 2048,
+            "porcien": 13.5,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 198,
+            "porcien": 1.31,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 1298,
+            "porcien": 8.56,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Omasuyos": {
+      "provincia_id": 2,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 22265,
+            "porcentaje": 53.25
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 13968,
+            "porcentaje": 33.41
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 5581,
+            "porcentaje": 13.35
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 41814,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 45886,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 45886,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 212,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 212,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 753,
+            "porcien": 3.38,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+            "sigla": "JALLALLA LP",
+            "valor": 2569,
+            "porcien": 11.54,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 1074,
+            "porcien": 4.82,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1379,
+            "porcien": 6.19,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 4416,
+            "porcien": 19.83,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+            "sigla": "FRI",
+            "valor": 756,
+            "porcien": 3.4,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 2492,
+            "porcien": 11.19,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 1404,
+            "porcien": 6.31,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+            "sigla": "APB-SUMATE",
+            "valor": 1267,
+            "porcien": 5.69,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 1532,
+            "porcien": 6.88,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 808,
+            "porcien": 3.63,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 631,
+            "porcien": 2.83,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 366,
+            "porcien": 1.64,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 2818,
+            "porcien": 12.66,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Pacajes": {
+      "provincia_id": 3,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 11781,
+            "porcentaje": 61.6
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 5048,
+            "porcentaje": 26.39
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 2297,
+            "porcentaje": 12.01
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 19126,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 21793,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 21793,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 124,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 124,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 710,
+            "porcien": 6.03,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 609,
+            "porcien": 5.17,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 1704,
+            "porcien": 14.46,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 1719,
+            "porcien": 14.59,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO POR LA SOBERANIA",
+            "sigla": "M.P.S.",
+            "valor": 1919,
+            "porcien": 16.29,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 1270,
+            "porcien": 10.78,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 2334,
+            "porcien": 19.81,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+            "sigla": "VIDA",
+            "valor": 600,
+            "porcien": 5.09,
+            "color": "#4EA8DE",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 199,
+            "porcien": 1.69,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 717,
+            "porcien": 6.09,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    },
+    "Sud Yungas": {
+      "provincia_id": 11,
+      "data": {
+        "tabla": [
+          {
+            "nombre": "Votos Válidos",
+            "valor": 30579,
+            "porcentaje": 53.84
+          },
+          {
+            "nombre": "Votos Blancos",
+            "valor": 20179,
+            "porcentaje": 35.53
+          },
+          {
+            "nombre": "Total Votos Nulos",
+            "valor": 6039,
+            "porcentaje": 10.63
+          },
+          {
+            "nombre": "Votos Emitidos",
+            "valor": 56797,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Ciudadanos Habilitados por Actas Computadas",
+            "valor": 65471,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Ciudadanos Habilitados",
+            "valor": 65471,
+            "porcentaje": null
+          },
+          {
+            "nombre": "Total Actas Computadas",
+            "valor": 300,
+            "porcentaje": 100
+          },
+          {
+            "nombre": "Total Actas Anuladas",
+            "valor": 0,
+            "porcentaje": 0
+          },
+          {
+            "nombre": "Total Actas Habilitadas",
+            "valor": 300,
+            "porcentaje": 100
+          }
+        ],
+        "grafica": [
+          {
+            "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+            "sigla": "PDC",
+            "valor": 1606,
+            "porcien": 5.25,
+            "color": "#E9C46A",
+            "imagen": ""
+          },
+          {
+            "nombre": "VENCEREMOS",
+            "sigla": "VENCEREMOS",
+            "valor": 3189,
+            "porcien": 10.43,
+            "color": "#56CFE1",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#FB9A99",
+            "imagen": ""
+          },
+          {
+            "nombre": "INNOVACION HUMANA",
+            "sigla": "IH",
+            "valor": 4285,
+            "porcien": 14.01,
+            "color": "#A6CEE3",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA PATRIA SOL",
+            "sigla": "PATRIA-SOL",
+            "valor": 3876,
+            "porcien": 12.68,
+            "color": "#BCBD22",
+            "imagen": ""
+          },
+          {
+            "nombre": "MOVIMIENTO TERCER SISTEMA",
+            "sigla": "MTS",
+            "valor": 2705,
+            "porcien": 8.85,
+            "color": "#D45087",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#7570B3",
+            "imagen": ""
+          },
+          {
+            "nombre": "SUMA POR EL BIEN COMÚN ",
+            "sigla": "SPBC",
+            "valor": 591,
+            "porcien": 1.93,
+            "color": "#FAF0CA",
+            "imagen": ""
+          },
+          {
+            "nombre": "SOMOS LA PAZ  ",
+            "sigla": "ASLP",
+            "valor": 2579,
+            "porcien": 8.43,
+            "color": "#577590",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#BAB0AC",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#A05195",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "#06D6A0",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+            "sigla": "A-UPP",
+            "valor": 3461,
+            "porcien": 11.32,
+            "color": "#EDC948",
+            "imagen": ""
+          },
+          {
+            "nombre": "UNION POR EL CAMBIO",
+            "sigla": "UPC",
+            "valor": 2156,
+            "porcien": 7.05,
+            "color": "#C7F9CC",
+            "imagen": ""
+          },
+          {
+            "nombre": "ALIANZA SOCIAL PATRIOTICA",
+            "sigla": "ASP",
+            "valor": 2538,
+            "porcien": 8.3,
+            "color": "#E15759",
+            "imagen": ""
+          },
+          {
+            "nombre": "",
+            "sigla": "",
+            "valor": 0,
+            "porcien": 0,
+            "color": "",
+            "imagen": ""
+          },
+          {
+            "nombre": "LIBERTAD Y REPÚBLICA",
+            "sigla": "LIBRE",
+            "valor": 1233,
+            "porcien": 4.03,
+            "color": "#FDBF6F",
+            "imagen": ""
+          },
+          {
+            "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+            "sigla": "NGP",
+            "valor": 2360,
+            "porcien": 7.72,
+            "color": "#F95D6A",
+            "imagen": ""
+          }
+        ],
+        "fecha": "27/03/2026 01:18:26"
+      }
+    }
+  }
+}

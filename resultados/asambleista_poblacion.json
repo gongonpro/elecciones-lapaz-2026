@@ -1,0 +1,200 @@
+{
+  "actualizado": "2026-03-27T05:18:24.872016+00:00",
+  "scope": "department",
+  "data": {
+    "tabla": [
+      {
+        "nombre": "Votos Válidos",
+        "valor": 921612,
+        "porcentaje": 50.9
+      },
+      {
+        "nombre": "Votos Blancos",
+        "valor": 713770,
+        "porcentaje": 39.42
+      },
+      {
+        "nombre": "Total Votos Nulos",
+        "valor": 175415,
+        "porcentaje": 9.69
+      },
+      {
+        "nombre": "Votos Emitidos",
+        "valor": 1810797,
+        "porcentaje": null
+      },
+      {
+        "nombre": "Ciudadanos Habilitados por Actas Computadas",
+        "valor": 2023882,
+        "porcentaje": null
+      },
+      {
+        "nombre": "Total Ciudadanos Habilitados",
+        "valor": 2023882,
+        "porcentaje": null
+      },
+      {
+        "nombre": "Total Actas Computadas",
+        "valor": 8995,
+        "porcentaje": 100
+      },
+      {
+        "nombre": "Total Actas Anuladas",
+        "valor": 0,
+        "porcentaje": 0
+      },
+      {
+        "nombre": "Total Actas Habilitadas",
+        "valor": 8995,
+        "porcentaje": 100
+      }
+    ],
+    "grafica": [
+      {
+        "nombre": "PARTIDO DEMOCRATA CRISTIANO",
+        "sigla": "PDC",
+        "valor": 46138,
+        "porcien": 5.01,
+        "color": "#E9C46A",
+        "imagen": ""
+      },
+      {
+        "nombre": "VENCEREMOS",
+        "sigla": "VENCEREMOS",
+        "valor": 68773,
+        "porcien": 7.46,
+        "color": "#56CFE1",
+        "imagen": ""
+      },
+      {
+        "nombre": "JUNTOS AL LLAMADO DE LOS PUEBLOS ",
+        "sigla": "JALLALLA LP",
+        "valor": 24039,
+        "porcien": 2.61,
+        "color": "#FB9A99",
+        "imagen": ""
+      },
+      {
+        "nombre": "INNOVACION HUMANA",
+        "sigla": "IH",
+        "valor": 93037,
+        "porcien": 10.1,
+        "color": "#A6CEE3",
+        "imagen": ""
+      },
+      {
+        "nombre": "ALIANZA PATRIA SOL",
+        "sigla": "PATRIA-SOL",
+        "valor": 175471,
+        "porcien": 19.04,
+        "color": "#BCBD22",
+        "imagen": ""
+      },
+      {
+        "nombre": "MOVIMIENTO TERCER SISTEMA",
+        "sigla": "MTS",
+        "valor": 58524,
+        "porcien": 6.35,
+        "color": "#D45087",
+        "imagen": ""
+      },
+      {
+        "nombre": "FRENTE REVOLUCIONARIO DE IZQUIERDA",
+        "sigla": "FRI",
+        "valor": 25868,
+        "porcien": 2.81,
+        "color": "#7570B3",
+        "imagen": ""
+      },
+      {
+        "nombre": "SUMA POR EL BIEN COMÚN ",
+        "sigla": "SPBC",
+        "valor": 25816,
+        "porcien": 2.8,
+        "color": "#FAF0CA",
+        "imagen": ""
+      },
+      {
+        "nombre": "SOMOS LA PAZ  ",
+        "sigla": "ASLP",
+        "valor": 68456,
+        "porcien": 7.43,
+        "color": "#577590",
+        "imagen": ""
+      },
+      {
+        "nombre": "AUTONOMÍA PARA BOLIVIA SÚMATE",
+        "sigla": "APB-SUMATE",
+        "valor": 29499,
+        "porcien": 3.2,
+        "color": "#BAB0AC",
+        "imagen": ""
+      },
+      {
+        "nombre": "MOVIMIENTO POR LA SOBERANIA",
+        "sigla": "M.P.S.",
+        "valor": 36767,
+        "porcien": 3.99,
+        "color": "#A05195",
+        "imagen": ""
+      },
+      {
+        "nombre": "",
+        "sigla": "",
+        "valor": 0,
+        "porcien": 0,
+        "color": "#06D6A0",
+        "imagen": ""
+      },
+      {
+        "nombre": "ALIANZA UNIDOS POR LOS PUEBLOS ",
+        "sigla": "A-UPP",
+        "valor": 33161,
+        "porcien": 3.6,
+        "color": "#EDC948",
+        "imagen": ""
+      },
+      {
+        "nombre": "UNION POR EL CAMBIO",
+        "sigla": "UPC",
+        "valor": 36182,
+        "porcien": 3.93,
+        "color": "#C7F9CC",
+        "imagen": ""
+      },
+      {
+        "nombre": "ALIANZA SOCIAL PATRIOTICA",
+        "sigla": "ASP",
+        "valor": 25919,
+        "porcien": 2.81,
+        "color": "#E15759",
+        "imagen": ""
+      },
+      {
+        "nombre": "VAMOS INTEGRANDO EL DESARROLLO AUTONOMICO",
+        "sigla": "VIDA",
+        "valor": 42956,
+        "porcien": 4.66,
+        "color": "#4EA8DE",
+        "imagen": ""
+      },
+      {
+        "nombre": "LIBERTAD Y REPÚBLICA",
+        "sigla": "LIBRE",
+        "valor": 77420,
+        "porcien": 8.4,
+        "color": "#FDBF6F",
+        "imagen": ""
+      },
+      {
+        "nombre": "NUEVA GENERACIÓN PATRIÓTICA",
+        "sigla": "NGP",
+        "valor": 53586,
+        "porcien": 5.81,
+        "color": "#F95D6A",
+        "imagen": ""
+      }
+    ],
+    "fecha": "27/03/2026 01:18:25"
+  }
+}
