@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elecciones La Paz 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --rojo: #C0392B;
+    --amarillo: #F4C430;
+    --negro: #0D0D0D;
+    --gris-oscuro: #1A1A1A;
+    --gris-medio: #2C2C2C;
+    --gris-claro: #3D3D3D;
+    --texto: #F0EDE8;
+    --texto-dim: #999;
+    --borde: rgba(255,255,255,0.08);
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'IBM Plex Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--negro);
+    color: var(--texto);
+    font-family: var(--font-body);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    border-bottom: 3px solid var(--rojo);
+    padding: 24px 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .header-titulo {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 3vw, 28px);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+
+  .header-titulo span { color: var(--amarillo); }
+
+  .header-meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--texto-dim);
+    text-align: right;
+    line-height: 1.7;
+  }
+
+  .header-meta strong { color: var(--amarillo); }
+
+  /* ── Layout ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    min-height: calc(100vh - 80px);
+  }
+
+  /* ── Sidebar ── */
+  nav {
+    border-right: 1px solid var(--borde);
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  nav h3 {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--texto-dim);
+    padding: 0 20px 12px;
+    text-transform: uppercase;
+  }
+
+  .nav-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    border-left: 3px solid transparent;
+    color: var(--texto-dim);
+    font-family: var(--font-body);
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .nav-btn:hover { color: var(--texto); background: rgba(255,255,255,0.04); }
+  .nav-btn.active {
+    color: var(--amarillo);
+    border-left-color: var(--amarillo);
+    background: rgba(244,196,48,0.06);
+    font-weight: 500;
+  }
+
+  /* ── Main ── */
+  main {
+    padding: 32px;
+    overflow-y: auto;
+  }
+
+  /* ── Panel ── */
+  .panel { display: none; }
+  .panel.visible { display: block; }
+
+  .panel-header {
+    margin-bottom: 28px;
+  }
+
+  .panel-header h2 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .panel-header .scope-badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 1px;
+    background: var(--gris-medio);
+    color: var(--texto-dim);
+    padding: 3px 8px;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+
+  /* ── Selector provincia/municipio ── */
+  .selector-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  select {
+    background: var(--gris-medio);
+    border: 1px solid var(--borde);
+    color: var(--texto);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 200px;
+  }
+
+  select:focus { outline: 2px solid var(--amarillo); }
+
+  /* ── Stats ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .stat-card {
+    background: var(--gris-oscuro);
+    border: 1px solid var(--borde);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+
+  .stat-card .stat-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--texto-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  .stat-card .stat-value {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--texto);
+  }
+
+  .stat-card .stat-pct {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--amarillo);
+    margin-top: 2px;
+  }
+
+  /* ── Barras de resultados ── */
+  .resultados-titulo {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--texto-dim);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .barra-item {
+    display: grid;
+    grid-template-columns: 90px 1fr 80px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .barra-sigla {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--texto);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+  }
+
+  .barra-track {
+    height: 20px;
+    background: var(--gris-medio);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .barra-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.6s ease;
+    min-width: 2px;
+  }
+
+  .barra-pct {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--texto-dim);
+    white-space: nowrap;
+  }
+
+  /* ── Loading / Error ── */
+  .estado {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--texto-dim);
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .estado.error { color: var(--rojo); }
+
+  .spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--gris-claro);
+    border-top-color: var(--amarillo);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Actas progress ── */
+  .actas-bar {
+    background: var(--gris-medio);
+    border-radius: 3px;
+    height: 6px;
+    margin: 6px 0 16px;
+    overflow: hidden;
+  }
+
+  .actas-fill {
+    height: 100%;
+    background: var(--amarillo);
+    border-radius: 3px;
+    transition: width 0.5s;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .layout { grid-template-columns: 1fr; }
+    nav { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--borde); }
+    main { padding: 20px 16px; }
+    .barra-item { grid-template-columns: 70px 1fr 60px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="header-titulo">Elecciones Subnacionales<br><span>La Paz 2026</span></div>
+  </div>
+  <div class="header-meta" id="header-meta">
+    Cargando datos…
+  </div>
+</header>
+
+<div class="layout">
+  <nav>
+    <h3>Cargos</h3>
+    <button class="nav-btn active" onclick="mostrarPanel('gobernador')">Gobernador/a</button>
+    <button class="nav-btn" onclick="mostrarPanel('asambleista_poblacion')">Asamb. Población</button>
+    <button class="nav-btn" onclick="mostrarPanel('asambleista_territorio')">Asamb. Territorio</button>
+    <button class="nav-btn" onclick="mostrarPanel('alcalde')">Alcalde/sa</button>
+    <button class="nav-btn" onclick="mostrarPanel('concejal')">Concejales</button>
+  </nav>
+
+  <main>
+    <div id="panel-gobernador" class="panel visible">
+      <div class="estado"><span class="spinner"></span>Cargando…</div>
+    </div>
+    <div id="panel-asambleista_poblacion" class="panel">
+      <div class="estado"><span class="spinner"></span>Cargando…</div>
+    </div>
+    <div id="panel-asambleista_territorio" class="panel">
+      <div class="estado"><span class="spinner"></span>Cargando…</div>
+    </div>
+    <div id="panel-alcalde" class="panel">
+      <div class="estado"><span class="spinner"></span>Cargando…</div>
+    </div>
+    <div id="panel-concejal" class="panel">
+      <div class="estado"><span class="spinner"></span>Cargando…</div>
+    </div>
+  </main>
+</div>
+
+<script>
+const BASE = "./resultados";
+const cache = {};
+
+// ── Utilidades ─────────────────────────────────────────────
+async function cargar(archivo) {
+  if (cache[archivo]) return cache[archivo];
+  const r = await fetch(`${BASE}/${archivo}.json`);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  cache[archivo] = await r.json();
+  return cache[archivo];
+}
+
+function fmt(n) {
+  if (n == null) return '–';
+  return Number(n).toLocaleString('es-BO');
+}
+
+function renderBarras(grafica) {
+  if (!grafica || !grafica.length) return '<div class="estado">Sin datos de candidaturas</div>';
+  const max = Math.max(...grafica.map(g => g.porcien || 0));
+  return grafica
+    .filter(g => g.sigla)
+    .sort((a, b) => b.porcien - a.porcien)
+    .map(g => `
+      <div class="barra-item">
+        <span class="barra-sigla" title="${g.nombre}">${g.sigla}</span>
+        <div class="barra-track">
+          <div class="barra-fill" style="width:${max > 0 ? (g.porcien/max*100) : 0}%;background:${g.color || '#666'}"></div>
+        </div>
+        <span class="barra-pct">${(g.porcien || 0).toFixed(2)}%</span>
+      </div>`).join('');
+}
+
+function renderTabla(tabla) {
+  if (!tabla) return '';
+  const actas = tabla.find(t => t.nombre === 'Total Actas Computadas');
+  const habilitadas = tabla.find(t => t.nombre === 'Total Actas Habilitadas');
+  const pct = (actas && habilitadas && habilitadas.valor > 0)
+    ? (actas.valor / habilitadas.valor * 100).toFixed(1) : null;
+
+  const stats = [
+    { label: 'Votos Válidos', key: 'Votos Válidos' },
+    { label: 'Votos Blancos', key: 'Votos Blancos' },
+    { label: 'Votos Nulos', key: 'Total Votos Nulos' },
+    { label: 'Votos Emitidos', key: 'Votos Emitidos' },
+  ];
+
+  const cards = stats.map(s => {
+    const row = tabla.find(t => t.nombre === s.key);
+    return row ? `<div class="stat-card">
+      <div class="stat-label">${s.label}</div>
+      <div class="stat-value">${fmt(row.valor)}</div>
+      ${row.porcentaje != null ? `<div class="stat-pct">${row.porcentaje}%</div>` : ''}
+    </div>` : '';
+  }).join('');
+
+  const actasHtml = pct != null ? `
+    <div style="margin-bottom:20px">
+      <div style="font-family:var(--font-mono);font-size:11px;color:var(--texto-dim)">
+        ACTAS COMPUTADAS: <strong style="color:var(--amarillo)">${fmt(actas.valor)} / ${fmt(habilitadas.valor)}</strong> (${pct}%)
+      </div>
+      <div class="actas-bar"><div class="actas-fill" style="width:${pct}%"></div></div>
+    </div>` : '';
+
+  return actasHtml + `<div class="stats-grid">${cards}</div>`;
+}
+
+// ── Paneles ────────────────────────────────────────────────
+async function renderDepartamento(panelId, archivo, titulo) {
+  const el = document.getElementById(`panel-${panelId}`);
+  try {
+    const json = await cargar(archivo);
+    const { tabla, grafica } = json.data;
+    const fecha = json.data.fecha || json.actualizado;
+    el.innerHTML = `
+      <div class="panel-header">
+        <h2>${titulo}</h2>
+        <span class="scope-badge">Departamento La Paz</span>
+      </div>
+      ${renderTabla(tabla)}
+      <div class="resultados-titulo">Resultados por organización política</div>
+      ${renderBarras(grafica)}`;
+  } catch(e) {
+    el.innerHTML = `<div class="estado error">Error al cargar: ${e.message}</div>`;
+  }
+}
+
+async function renderProvincia(panelId, archivo, titulo) {
+  const el = document.getElementById(`panel-${panelId}`);
+  try {
+    const json = await cargar(archivo);
+    const provincias = Object.keys(json.provincias);
+
+    function renderProv(nombre) {
+      const prov = json.provincias[nombre];
+      if (!prov) return '';
+      const { tabla, grafica } = prov.data;
+      return renderTabla(tabla) +
+        `<div class="resultados-titulo">Resultados por organización política</div>` +
+        renderBarras(grafica);
+    }
+
+    el.innerHTML = `
+      <div class="panel-header">
+        <h2>${titulo}</h2>
+        <span class="scope-badge">Por provincia · La Paz</span>
+      </div>
+      <div class="selector-row">
+        <select id="sel-${panelId}" onchange="document.getElementById('content-${panelId}').innerHTML=renderProv_${panelId}(this.value)">
+          ${provincias.map(p => `<option value="${p}">${p}</option>`).join('')}
+        </select>
+      </div>
+      <div id="content-${panelId}">${renderProv(provincias[0])}</div>`;
+
+    // Exponer función globalmente
+    window[`renderProv_${panelId}`] = renderProv;
+  } catch(e) {
+    el.innerHTML = `<div class="estado error">Error al cargar: ${e.message}</div>`;
+  }
+}
+
+async function renderMunicipio(panelId, archivo, titulo) {
+  const el = document.getElementById(`panel-${panelId}`);
+  try {
+    const json = await cargar(archivo);
+    const municipios = Object.keys(json.municipios);
+
+    // Agrupar por provincia
+    const porProvincia = {};
+    municipios.forEach(k => {
+      const prov = json.municipios[k].provincia;
+      if (!porProvincia[prov]) porProvincia[prov] = [];
+      porProvincia[prov].push(k);
+    });
+
+    const provs = Object.keys(porProvincia).sort();
+
+    function getMunsOfProv(prov) {
+      return porProvincia[prov] || [];
+    }
+
+    function renderMun(key) {
+      const mun = json.municipios[key];
+      if (!mun) return '';
+      const { tabla, grafica } = mun.data;
+      return renderTabla(tabla) +
+        `<div class="resultados-titulo">Resultados por organización política</div>` +
+        renderBarras(grafica);
+    }
+
+    function buildMunOptions(prov) {
+      return getMunsOfProv(prov).map(k => {
+        const nombre = k.split(' / ')[1];
+        return `<option value="${k}">${nombre}</option>`;
+      }).join('');
+    }
+
+    el.innerHTML = `
+      <div class="panel-header">
+        <h2>${titulo}</h2>
+        <span class="scope-badge">Por municipio · La Paz</span>
+      </div>
+      <div class="selector-row">
+        <select id="sel-prov-${panelId}" onchange="
+          document.getElementById('sel-mun-${panelId}').innerHTML = buildMunOpts_${panelId}(this.value);
+          const first = document.getElementById('sel-mun-${panelId}').value;
+          document.getElementById('content-${panelId}').innerHTML = renderMun_${panelId}(first);
+        ">
+          ${provs.map(p => `<option value="${p}">${p}</option>`).join('')}
+        </select>
+        <select id="sel-mun-${panelId}" onchange="document.getElementById('content-${panelId}').innerHTML=renderMun_${panelId}(this.value)">
+          ${buildMunOptions(provs[0])}
+        </select>
+      </div>
+      <div id="content-${panelId}">${renderMun(getMunsOfProv(provs[0])[0])}</div>`;
+
+    window[`renderMun_${panelId}`] = renderMun;
+    window[`buildMunOpts_${panelId}`] = buildMunOptions;
+  } catch(e) {
+    el.innerHTML = `<div class="estado error">Error al cargar: ${e.message}</div>`;
+  }
+}
+
+// ── Navegación ─────────────────────────────────────────────
+const panelCargado = {};
+
+function mostrarPanel(id) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('visible'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(`panel-${id}`).classList.add('visible');
+  event.target.classList.add('active');
+
+  if (!panelCargado[id]) {
+    panelCargado[id] = true;
+    cargarPanel(id);
+  }
+}
+
+function cargarPanel(id) {
+  switch(id) {
+    case 'gobernador':
+      return renderDepartamento('gobernador', 'gobernador', 'Gobernador / Gobernadora');
+    case 'asambleista_poblacion':
+      return renderDepartamento('asambleista_poblacion', 'asambleista_poblacion', 'Asambleísta Departamental por Población');
+    case 'asambleista_territorio':
+      return renderProvincia('asambleista_territorio', 'asambleista_territorio', 'Asambleísta Departamental por Territorio');
+    case 'alcalde':
+      return renderMunicipio('alcalde', 'alcalde', 'Alcalde / Alcaldesa');
+    case 'concejal':
+      return renderMunicipio('concejal', 'concejal', 'Concejales');
+  }
+}
+
+// ── Header metadata ────────────────────────────────────────
+async function cargarMeta() {
+  try {
+    const meta = await cargar('meta');
+    const fecha = meta.actualizado
+      ? new Date(meta.actualizado).toLocaleString('es-BO', {timeZone:'America/La_Paz'})
+      : '–';
+    document.getElementById('header-meta').innerHTML =
+      `Fuente: <strong>OEP · SIREPRE</strong><br>Actualizado: <strong>${fecha}</strong>`;
+  } catch(e) {
+    document.getElementById('header-meta').textContent = 'Fuente: OEP · SIREPRE';
+  }
+}
+
+// ── Init ───────────────────────────────────────────────────
+panelCargado['gobernador'] = true;
+cargarPanel('gobernador');
+cargarMeta();
+</script>
+</body>
+</html>
