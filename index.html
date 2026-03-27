@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elecciones La Paz 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+/* Aquí va todo tu CSS existente */
+:root {
+  --bg:#f5f2ec; --bg2:#ffffff; --bg3:#eeebe3;
+  --borde:#e2ddd4; --borde2:#ccc7bb;
+  --texto:#18160f; --texto2:#4a4640; --texto3:#8a847a;
+  --acento:#c0392b; --verde:#27ae60;
+  --font-d:'Source Serif 4',Georgia,serif;
+  --font-b:'DM Sans',sans-serif;
+  --font-m:'DM Mono',monospace;
+  --sh:0 1px 6px rgba(0,0,0,.07);
+  --sh2:0 4px 20px rgba(0,0,0,.10);
+  --r:6px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--texto);font-family:var(--font-b);height:100vh;display:flex;flex-direction:column;overflow:hidden;}
+
+/* HEADER */
+header{background:var(--bg2);border-bottom:1px solid var(--borde);padding:0 22px;height:54px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;box-shadow:var(--sh);}
+.h-left{display:flex;align-items:baseline;gap:10px;}
+.h-title{font-family:var(--font-d);font-size:19px;font-weight:700;letter-spacing:-.3px;}
+.h-title em{color:var(--acento);font-style:normal;}
+.h-pill{font-family:var(--font-m);font-size:10px;background:var(--acento);color:#fff;padding:2px 8px;border-radius:20px;}
+.h-meta{font-family:var(--font-m);font-size:10px;color:var(--texto3);text-align:right;line-height:1.65;}
+.h-meta strong{color:var(--acento);}
+
+/* LAYOUT */
+.layout{display:flex;flex:1;overflow:hidden;}
+
+/* SIDEBAR */
+aside{width:210px;min-width:210px;background:var(--bg2);border-right:1px solid var(--borde);display:flex;flex-direction:column;flex-shrink:0;overflow-y:auto;}
+.aside-sec{padding:14px 0 6px;}
+.aside-lbl{font-family:var(--font-m);font-size:9px;letter-spacing:2px;color:var(--texto3);padding:0 15px 8px;text-transform:uppercase;}
+.aside-hr{border:none;border-top:1px solid var(--borde);margin:4px 15px;}
+.nb{display:flex;align-items:center;gap:8px;width:100%;padding:8px 15px;background:none;border:none;border-left:3px solid transparent;color:var(--texto2);font-family:var(--font-b);font-size:13px;text-align:left;cursor:pointer;transition:all .14s;}
+.nb:hover{color:var(--texto);background:var(--bg3);}
+.nb.active{color:var(--acento);border-left-color:var(--acento);background:rgba(192,57,43,.05);font-weight:500;}
+.nb-icon{width:17px;font-size:13px;text-align:center;opacity:.7;}
+
+.aside-totals{padding:12px 15px 16px;border-top:1px solid var(--borde);margin-top:auto;}
+.at-lbl{font-family:var(--font-m);font-size:9px;letter-spacing:2px;color:var(--texto3);text-transform:uppercase;margin-bottom:9px;}
+.at-row{display:flex;align-items:center;gap:7px;margin-bottom:5px;}
+.at-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.at-name{font-family:var(--font-b);font-size:11px;color:var(--texto2);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.at-pct{font-family:var(--font-m);font-size:11px;font-weight:500;}
+
+/* MAIN */
+main{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+.tabs{display:flex;border-bottom:1px solid var(--borde);background:var(--bg2);padding:0 18px;flex-shrink:0;}
+.tb{background:none;border:none;padding:13px 14px;color:var(--texto3);font-family:var(--font-b);font-size:13px;font-weight:500;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;display:flex;align-items:center;gap:6px;transition:all .14s;}
+.tb:hover{color:var(--texto2);}
+.tb.active{color:var(--acento);border-bottom-color:var(--acento);}
+
+/* TABLA VIEW */
+.vt{display:none;flex:1;overflow-y:auto;background:var(--bg);}
+.vt.visible{display:block;}
+.vt-inner{max-width:760px;margin:0 auto;padding:26px 22px 40px;}
+
+.ph{margin-bottom:22px;}
+.ph h2{font-family:var(--font-d);font-size:26px;font-weight:700;line-height:1.2;margin-bottom:6px;}
+.ph-scope{display:inline-block;font-family:var(--font-m);font-size:10px;letter-spacing:.5px;background:var(--bg3);border:1px solid var(--borde);color:var(--texto3);padding:2px 8px;border-radius:20px;}
+
+.actas-card{background:var(--bg2);border:1px solid var(--borde);border-radius:var(--r);padding:13px 16px;margin-bottom:14px;box-shadow:var(--sh);}
+.actas-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;}
+.actas-lbl{font-family:var(--font-m);font-size:11px;color:var(--texto3);}
+.actas-val{font-family:var(--font-m);font-size:12px;font-weight:600;}
+.actas-val em{color:var(--verde);font-style:normal;}
+.bar-track-thin{background:var(--bg3);border-radius:20px;height:5px;overflow:hidden;}
+.bar-fill-thin{height:100%;border-radius:20px;background:var(--verde);}
+
+.stats-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(125px,1fr));gap:9px;margin-bottom:18px;}
+.stat-c{background:var(--bg2);border:1px solid var(--borde);border-radius:var(--r);padding:11px 13px;box-shadow:var(--sh);}
+.stat-c .l{font-family:var(--font-m);font-size:9px;color:var(--texto3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px;}
+.stat-c .v{font-family:var(--font-d);font-size:20px;font-weight:600;}
+.stat-c .p{font-family:var(--font-m);font-size:10px;color:var(--acento);margin-top:2px;}
+
+.result-lbl{font-family:var(--font-m);font-size:9px;letter-spacing:2px;color:var(--texto3);text-transform:uppercase;margin-bottom:10px;}
+.result-card{background:var(--bg2);border:1px solid var(--borde);border-radius:var(--r);padding:14px 16px;box-shadow:var(--sh);}
+.br{display:grid;grid-template-columns:76px 1fr 64px;align-items:center;gap:9px;margin-bottom:3px;}
+.br-sigla{font-family:var(--font-m);font-size:11px;font-weight:500;text-align:right;color:var(--texto2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.br-track{background:var(--bg3);border-radius:20px;height:13px;overflow:hidden;}
+.br-fill{height:100%;border-radius:20px;min-width:3px;transition:width .5s;}
+.br-pct{font-family:var(--font-m);font-size:12px;font-weight:600;}
+.br-votos{font-family:var(--font-m);font-size:9px;color:var(--texto3);text-align:center;margin-bottom:8px;}
+
+.filter-row{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;}
+select.fs{background:var(--bg2);border:1px solid var(--borde);color:var(--texto);font-family:var(--font-b);font-size:12px;padding:7px 28px 7px 10px;border-radius:var(--r);cursor:pointer;min-width:170px;box-shadow:var(--sh);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a847a'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;}
+select.fs:focus{outline:2px solid var(--acento);outline-offset:-1px;}
+
+/* MAPA VIEW */
+.vm{display:none;flex:1;overflow:hidden;}
+.vm.visible{display:flex;}
+#mapa{flex:1;}
+
+/* Panel derecho mapa */
+.mp{width:290px;min-width:290px;background:var(--bg2);border-left:1px solid var(--borde);display:flex;flex-direction:column;overflow-y:auto;}
+.mp-top{padding:14px 15px;border-bottom:1px solid var(--borde);flex-shrink:0;}
+.mp-lbl{font-family:var(--font-m);font-size:9px;letter-spacing:2px;color:var(--texto3);text-transform:uppercase;margin-bottom:6px;}
+select.cs{width:100%;background:var(--bg3);border:1px solid var(--borde);color:var(--texto);font-family:var(--font-b);font-size:12px;padding:7px 26px 7px 10px;border-radius:var(--r);cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a847a'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;}
+select.cs:focus{outline:2px solid var(--acento);outline-offset:-1px;}
+
+.mp-hint{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:30px 22px;text-align:center;}
+.mp-hint-ico{font-size:34px;margin-bottom:12px;opacity:.35;}
+.mp-hint-txt{font-family:var(--font-b);font-size:13px;color:var(--texto3);line-height:1.65;}
+
+/* Detalle recinto */
+#rdet{display:none;flex-direction:column;}
+.rd-hdr{padding:14px 15px 11px;border-bottom:1px solid var(--borde);}
+.rd-name{font-family:var(--font-d);font-size:15px;font-weight:700;line-height:1.3;margin-bottom:3px;}
+.rd-sub{font-family:var(--font-m);font-size:10px;color:var(--texto3);line-height:1.6;}
+.rd-sub em{color:var(--acento);font-style:normal;font-weight:500;}
+.rd-close{display:inline-block;margin-top:8px;background:none;border:1px solid var(--borde);border-radius:var(--r);font-family:var(--font-m);font-size:10px;color:var(--texto3);padding:4px 9px;cursor:pointer;transition:all .14s;}
+.rd-close:hover{border-color:var(--acento);color:var(--acento);}
+
+.rd-actas{padding:11px 15px;border-bottom:1px solid var(--borde);}
+.rd-actas-row{display:flex;justify-content:space-between;margin-bottom:6px;}
+.rd-actas-lbl{font-family:var(--font-m);font-size:10px;color:var(--texto3);}
+.rd-actas-val{font-family:var(--font-m);font-size:10px;font-weight:600;}
+
+.rd-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--borde);border-top:1px solid var(--borde);border-bottom:1px solid var(--borde);}
+.rd-stat{background:var(--bg2);padding:9px 12px;}
+.rd-stat .l{font-family:var(--font-m);font-size:9px;color:var(--texto3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px;}
+.rd-stat .v{font-family:var(--font-d);font-size:16px;font-weight:600;}
+.rd-stat .p{font-family:var(--font-m);font-size:10px;color:var(--acento);}
+
+.rd-cands{padding:11px 15px;}
+.rd-cands-ttl{font-family:var(--font-m);font-size:9px;letter-spacing:2px;color:var(--texto3);text-transform:uppercase;margin-bottom:10px;}
+.cr{display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:7px;margin-bottom:3px;}
+.cr-sigla{font-family:var(--font-m);font-size:10px;font-weight:500;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--texto2);}
+.cr-track{background:var(--bg3);border-radius:20px;height:10px;overflow:hidden;}
+.cr-fill{height:100%;border-radius:20px;min-width:2px;}
+.cr-pct{font-family:var(--font-m);font-size:11px;font-weight:600;}
+.cr-votos{font-family:var(--font-m);font-size:9px;color:var(--texto3);grid-column:2/-1;text-align:left;padding-left:1px;margin-bottom:5px;}
+
+/* Overlays mapa */
+.mf{position:absolute;top:12px;left:12px;z-index:999;display:flex;gap:6px;flex-wrap:wrap;}
+.mf select{background:rgba(255,255,255,.96);border:1px solid var(--borde2);color:var(--texto);font-family:var(--font-b);font-size:12px;padding:6px 26px 6px 10px;border-radius:var(--r);cursor:pointer;box-shadow:var(--sh2);min-width:148px;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a847a'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center;}
+.ml{position:absolute;bottom:26px;left:12px;z-index:999;background:rgba(255,255,255,.96);border:1px solid var(--borde);border-radius:var(--r);padding:10px 13px;max-width:195px;box-shadow:var(--sh2);}
+.lt{font-family:var(--font-m);font-size:8px;letter-spacing:2px;color:var(--texto3);text-transform:uppercase;margin-bottom:8px;}
+.li{display:flex;align-items:center;gap:7px;margin-bottom:4px;font-family:var(--font-m);font-size:10px;color:var(--texto2);}
+.ld{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+
+/* Leaflet */
+.leaflet-container{background:#e8e4dc;}
+.leaflet-popup-content-wrapper{background:#fff;border:1px solid var(--borde);color:var(--texto);font-family:var(--font-b);border-radius:var(--r);box-shadow:var(--sh2);padding:0!important;overflow:hidden;min-width:220px;}
+.leaflet-popup-content{margin:0!important;}
+.leaflet-popup-tip{background:#fff;}
+.leaflet-popup-close-button{color:#fff!important;top:6px!important;right:8px!important;font-size:16px!important;font-weight:700!important;z-index:10;text-shadow:0 1px 2px rgba(0,0,0,.4);}
+.popup-recinto .leaflet-popup-content-wrapper{border:none;box-shadow:0 6px 24px rgba(0,0,0,.18);}
+
+/* Popup interno */
+.pw{padding:13px 14px 14px;}
+.pw-name{font-family:var(--font-d);font-size:13px;font-weight:700;margin-bottom:2px;}
+.pw-sub{font-family:var(--font-m);font-size:9px;color:var(--texto3);margin-bottom:11px;}
+.pr{display:grid;grid-template-columns:44px 1fr 40px;align-items:center;gap:6px;margin-bottom:3px;}
+.pr-sigla{font-family:var(--font-m);font-size:10px;font-weight:600;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.pr-track{background:var(--bg3);border-radius:20px;height:8px;overflow:hidden;}
+.pr-fill{height:100%;border-radius:20px;}
+.pr-pct{font-family:var(--font-m);font-size:11px;font-weight:700;}
+.pr-votos{font-family:var(--font-m);font-size:9px;color:var(--texto3);grid-column:2/-1;margin-bottom:4px;padding-left:2px;}
+
+/* Popup recinto grande (estilo imagen referencia) */
+.popup-rec{min-width:220px;max-width:260px;}
+.popup-rec-hdr{background:var(--acento);color:#fff;padding:10px 13px 8px;border-radius:6px 6px 0 0;}
+.popup-rec-nombre{font-family:var(--font-d);font-size:14px;font-weight:700;line-height:1.25;margin-bottom:2px;}
+.popup-rec-sub{font-family:var(--font-m);font-size:9px;opacity:.85;}
+.popup-rec-body{padding:10px 13px 13px;}
+.popup-rec-loading{text-align:center;padding:16px 0;font-family:var(--font-m);font-size:11px;color:var(--texto3);}
+.popup-pr{display:grid;grid-template-columns:50px 1fr 42px;align-items:center;gap:6px;margin-bottom:2px;}
+.popup-pr-sigla{font-family:var(--font-m);font-size:10px;font-weight:700;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.popup-pr-track{background:var(--bg3);border-radius:20px;height:10px;overflow:hidden;}
+.popup-pr-fill{height:100%;border-radius:20px;min-width:3px;}
+.popup-pr-pct{font-family:var(--font-m);font-size:11px;font-weight:700;}
+.popup-pr-votos{font-family:var(--font-m);font-size:8.5px;color:var(--texto3);grid-column:2/-1;padding-left:1px;margin-bottom:5px;}
+.popup-pr-ganador .popup-pr-sigla{font-size:11px;}
+.popup-pr-ganador .popup-pr-fill{min-width:4px;}
+.popup-pr-ganador .popup-pr-pct{font-size:12px;}
+.popup-rec-actas{font-family:var(--font-m);font-size:9px;color:var(--texto3);text-align:center;margin-top:8px;border-top:1px solid var(--borde);padding-top:7px;}
+
+/* Spinner */
+.sp{display:inline-block;width:13px;height:13px;border:2px solid var(--borde2);border-top-color:var(--acento);border-radius:50%;animation:spin .7s linear infinite;margin-right:5px;vertical-align:middle;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.est{font-family:var(--font-b);font-size:13px;color:var(--texto3);padding:28px 0;text-align:center;}
+.err-txt{color:var(--acento);}
+
+/* TABLA DE RESULTADOS */
+.rt-card{background:var(--bg2);border:1px solid var(--borde);border-radius:var(--r);margin-bottom:14px;box-shadow:var(--sh);overflow:hidden;}
+.rt-card-hdr{padding:13px 16px 12px;border-bottom:1px solid var(--borde);}
+.rt-card-tit{font-family:var(--font-d);font-size:16px;font-weight:700;line-height:1.2;}
+.rt-card-sub{font-family:var(--font-m);font-size:9px;letter-spacing:1px;color:var(--texto3);text-transform:uppercase;margin-top:2px;}
+.rt-actas{margin-top:10px;}
+.rt-actas-row{display:flex;justify-content:space-between;margin-bottom:5px;font-family:var(--font-m);font-size:10px;color:var(--texto3);}
+.rt-actas-val{font-weight:600;color:var(--texto);}
+.rt-actas-val em{color:var(--verde);font-style:normal;}
+.rt-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:1px;background:var(--borde);border-bottom:1px solid var(--borde);}
+.rt-stats .stat-c{border-radius:0;border:none;box-shadow:none;padding:9px 12px;}
+.result-card{padding:12px 16px;}
+.rt-prov-lbl{font-family:var(--font-m);font-size:9px;letter-spacing:2.5px;color:var(--texto3);text-transform:uppercase;padding:18px 0 8px;border-top:1px solid var(--borde);margin-top:8px;}
+.rt-prov-lbl:first-child{border-top:none;padding-top:4px;}
+
+@media(max-width:680px){
+  .layout{flex-direction:column;}
+  aside{width:100%;min-width:unset;border-right:none;border-bottom:1px solid var(--borde);flex-direction:row;overflow-x:auto;padding:4px 0;}
+  .aside-sec{padding:0;display:flex;}
+  .aside-lbl,.aside-hr,.aside-totals{display:none;}
+  .nb{padding:8px 11px;white-space:nowrap;border-left:none;border-bottom:3px solid transparent;}
+  .nb.active{border-left:none;border-bottom-color:var(--acento);background:none;}
+  .mp{width:100%;min-width:unset;max-height:250px;border-left:none;border-top:1px solid var(--borde);}
+  .vm{flex-direction:column;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="h-left">
+    <div class="h-title">La Paz <em>2026</em></div>
+    <span class="h-pill">Subnacionales</span>
+  </div>
+  <div class="h-meta" id="hm">Fuente: <strong>OEP · SIREPRE</strong></div>
+</header>
+
+<div class="layout">
+  <aside>
+    <div class="aside-sec">
+      <div class="aside-lbl">Departamental</div>
+      <button class="nb active" data-cargo="gobernador" onclick="selCargo(this)"><span class="nb-icon">🏛</span>Gobernador/a</button>
+      <button class="nb" data-cargo="asambleista_poblacion" onclick="selCargo(this)"><span class="nb-icon">👥</span>Asamb. Población</button>
+      <button class="nb" data-cargo="asambleista_territorio" onclick="selCargo(this)"><span class="nb-icon">🗺</span>Asamb. Territorio</button>
+      <hr class="aside-hr">
+      <div class="aside-lbl">Municipal</div>
+      <button class="nb" data-cargo="alcalde" onclick="selCargo(this)"><span class="nb-icon">🏙</span>Alcalde/sa</button>
+      <button class="nb" data-cargo="concejal" onclick="selCargo(this)"><span class="nb-icon">🗳</span>Concejales</button>
+    </div>
+    <div class="aside-totals" id="aside-totals" style="display:none">
+      <div class="at-lbl">Top partidos (Dpto.)</div>
+      <div id="at-rows"></div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="tabs">
+      <button class="tb active" id="tt" onclick="selTab('tabla')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+        Resultados
+      </button>
+      <button class="tb" id="tm" onclick="selTab('mapa')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M10.5 1.5l-5 1.5L1.5 1.5v11l4 2 5-1.5 4 1.5v-11l-4-2zm-5 11.3L1.5 11V3.2l4 1.3v8.3zm5-.3L5.5 14V5.5l5-1.5v8zm4 .5l-4-1.5V4.5l4 1.5v7z"/></svg>
+        Mapa por recinto
+      </button>
+    </div>
+
+    <div class="vt visible" id="vt">
+      <div class="vt-inner" id="tc"><div class="est"><span class="sp"></span>Cargando datos…</div></div>
+    </div>
+
+    <div class="vm" id="vm">
+      <div style="position:relative;flex:1;display:flex;flex-direction:column;">
+        <div id="mapa" style="flex:1;"></div>
+        <div class="mf" id="mf" style="display:none">
+          <select id="fp" onchange="filtrarMapa()"><option value="">Todas las provincias</option></select>
+          <select id="fm" onchange="filtrarMapa()"><option value="">Todos los municipios</option></select>
+        </div>
+        <div class="ml" id="mleg" style="display:none">
+          <div class="lt">Ganador por recinto</div>
+          <div id="li"></div>
+          <div class="li"><div class="ld" style="background:#ccc;border:1px solid #bbb"></div>Sin datos</div>
+        </div>
+      </div>
+
+      <div class="mp">
+        <div class="mp-top">
+          <div class="mp-lbl">Cargo visualizado</div>
+          <select class="cs" id="mc" onchange="cambiarCargoMapa()">
+            <option value="gobernador">Gobernador/a</option>
+            <option value="asambleista_poblacion">Asamb. Población</option>
+            <option value="asambleista_territorio">Asamb. Territorio</option>
+            <option value="alcalde">Alcalde/sa</option>
+            <option value="concejal">Concejales</option>
+          </select>
+        </div>
+        <div class="mp-hint" id="mhint">
+          <div class="mp-hint-ico">📍</div>
+          <div class="mp-hint-txt" id="mhint-txt">Haz clic en un punto del mapa para ver los resultados del recinto</div>
+        </div>
+        <div id="rdet">
+          <div class="rd-hdr">
+            <div class="rd-name" id="rcn"></div>
+            <div class="rd-sub" id="rcm"></div>
+            <button class="rd-close" onclick="cerrarDet()">✕ Cerrar</button>
+          </div>
+          <div class="rd-actas" id="rca" style="display:none">
+            <div class="rd-actas-row">
+              <span class="rd-actas-lbl">Actas computadas</span>
+              <span class="rd-actas-val" id="rcal"></span>
+            </div>
+            <div class="bar-track-thin"><div class="bar-fill-thin" id="rcaf" style="width:0"></div></div>
+          </div>
+          <div class="rd-stats" id="rcs"></div>
+          <div class="rd-cands">
+            <div class="rd-cands-ttl">Resultados por organización</div>
+            <div id="rcb"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Script de tabla de resultados -->
+<script>
+// ── Cache de datos ya cargados ─────────────────────────────────────────────
+const _cache = {};
+
+async function _loadJSON(path) {
+    if (_cache[path]) return _cache[path];
+    const r = await fetch(path);
+    if (!r.ok) throw new Error('No se pudo cargar ' + path);
+    _cache[path] = await r.json();
+    return _cache[path];
+}
+
+function _fmtN(n) {
+    if (n === null || n === undefined) return '–';
+    return Number(n).toLocaleString('es-BO');
+}
+function _fmtP(p) {
+    if (p === null || p === undefined) return '';
+    return Number(p).toFixed(1) + '%';
+}
+
+// ── Construir tarjeta de resultado ─────────────────────────────────────────
+function _buildCard(titulo, subtitulo, datos) {
+    const { tabla = [], grafica = [] } = datos;
+
+    const findTabla = (n) => tabla.find(t => t.nombre === n);
+    const emitidos  = findTabla('Votos Emitidos');
+    const validos   = findTabla('Votos Válidos');
+    const blancos   = findTabla('Votos Blancos');
+    const nulos     = findTabla('Total Votos Nulos');
+    const acComp    = findTabla('Total Actas Computadas');
+    const acHab     = findTabla('Total Actas Habilitadas');
+
+    const acPct = (acComp && acHab && acHab.valor)
+        ? (acComp.valor / acHab.valor * 100).toFixed(1) : null;
+
+    const sorted = [...grafica]
+        .filter(x => x.sigla && x.sigla.trim())
+        .sort((a, b) => (b.porcien || 0) - (a.porcien || 0));
+    const maxPct = Math.max(...sorted.map(x => x.porcien || 0));
+
+    return `
+    <div class="rt-card">
+        <div class="rt-card-hdr">
+            <div class="rt-card-tit">${titulo}</div>
+            ${subtitulo ? `<div class="rt-card-sub">${subtitulo}</div>` : ''}
+            ${acPct !== null ? `
+            <div class="rt-actas">
+                <div class="rt-actas-row">
+                    <span>Actas computadas</span>
+                    <span class="rt-actas-val">${_fmtN(acComp.valor)} / ${_fmtN(acHab.valor)} <em>(${acPct}%)</em></span>
+                </div>
+                <div class="bar-track-thin"><div class="bar-fill-thin" style="width:${acPct}%"></div></div>
+            </div>` : ''}
+        </div>
+        ${tabla.length ? `
+        <div class="rt-stats">
+            ${[['Válidos', validos], ['Emitidos', emitidos], ['Blancos', blancos], ['Nulos', nulos]].map(([lbl, item]) =>
+                item ? `<div class="stat-c"><div class="l">${lbl}</div><div class="v">${_fmtN(item.valor)}</div><div class="p">${_fmtP(item.porcentaje)}</div></div>` : ''
+            ).join('')}
+        </div>` : ''}
+        ${sorted.length ? `
+        <div class="result-card">
+            ${sorted.map(x => {
+                const color = x.color || '#ccc';
+                const width = maxPct > 0 ? (x.porcien / maxPct * 100) : 0;
+                return `
+                <div class="br">
+                    <span class="br-sigla" title="${x.nombre || x.sigla}">${x.sigla}</span>
+                    <div class="br-track"><div class="br-fill" style="width:${width}%;background:${color}"></div></div>
+                    <span class="br-pct" style="color:${color}">${_fmtP(x.porcien)}</span>
+                </div>
+                <div class="br-votos">${_fmtN(x.valor)} votos</div>`;
+            }).join('')}
+        </div>` : '<div class="est">Sin datos de candidatos</div>'}
+    </div>`;
+}
+
+// ── Render principal ───────────────────────────────────────────────────────
+async function renderTabla() {
+    const tc = document.getElementById('tc');
+    if (!tc) return;
+    tc.innerHTML = '<div class="est"><span class="sp"></span>Cargando datos…</div>';
+
+    const cargo = typeof cargoActual !== 'undefined' ? cargoActual : 'gobernador';
+
+    try {
+        if (cargo === 'gobernador' || cargo === 'asambleista_poblacion') {
+            const fname = cargo === 'gobernador' ? 'gobernador' : 'asambleista_poblacion';
+            const label = cargo === 'gobernador' ? 'Gobernador/a' : 'Asambleísta Departamental por Población';
+            const data = await _loadJSON(`resultados/${fname}.json`);
+            tc.innerHTML = `
+                <div class="vt-inner">
+                    <div class="ph"><h2>${label}</h2><span class="ph-scope">Departamento de La Paz · 2026</span></div>
+                    ${_buildCard('Resultado Departamental', null, data.data)}
+                </div>`;
+
+        } else if (cargo === 'asambleista_territorio') {
+            const data = await _loadJSON('resultados/asambleista_territorio.json');
+            const cards = Object.entries(data.provincias)
+                .sort((a, b) => a[0].localeCompare(b[0]))
+                .map(([prov, v]) => _buildCard(prov, 'Asambleísta por Territorio', v.data))
+                .join('');
+            tc.innerHTML = `
+                <div class="vt-inner">
+                    <div class="ph"><h2>Asambleísta por Territorio</h2><span class="ph-scope">Por provincia · La Paz 2026</span></div>
+                    ${cards}
+                </div>`;
+
+        } else if (cargo === 'alcalde' || cargo === 'concejal') {
+            const fname = cargo === 'alcalde' ? 'alcalde' : 'concejal';
+            const label = cargo === 'alcalde' ? 'Alcalde/sa' : 'Concejales';
+            const data = await _loadJSON(`resultados/${fname}.json`);
+
+            // Agrupar por provincia
+            const porProv = {};
+            Object.entries(data.municipios).forEach(([key, v]) => {
+                const prov = v.provincia || key.split(' / ')[0];
+                if (!porProv[prov]) porProv[prov] = [];
+                porProv[prov].push({ key, municipio: key.split(' / ')[1] || key, data: v.data });
+            });
+
+            const sections = Object.entries(porProv).sort((a, b) => a[0].localeCompare(b[0])).map(([prov, munis]) => `
+                <div class="rt-prov-lbl">${prov}</div>
+                ${munis.sort((a, b) => a.municipio.localeCompare(b.municipio)).map(m =>
+                    _buildCard(m.municipio, label, m.data)
+                ).join('')}
+            `).join('');
+
+            tc.innerHTML = `
+                <div class="vt-inner">
+                    <div class="ph"><h2>${label}</h2><span class="ph-scope">Por municipio · La Paz 2026</span></div>
+                    ${sections}
+                </div>`;
+        }
+    } catch (e) {
+        tc.innerHTML = `<div class="vt-inner"><div class="est err-txt">Error cargando datos: ${e.message}</div></div>`;
+    }
+}
+
+// Ejecutar al cargar la página (tab Resultados es visible por defecto)
+document.addEventListener('DOMContentLoaded', () => {
+    renderTabla();
+});
+</script>
+
+<!-- Cargar el script del mapa -->
+<script src="js/mapa.js"></script>
+
+</body>
+</html>
