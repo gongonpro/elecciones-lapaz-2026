@@ -1,33 +1,51 @@
 name: Actualizar datos electorales
+
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Cada 12 horas (menos frecuente)
-  workflow_dispatch:  # Permite ejecución manual
+    - cron: '0 */12 * * *'  # Cada 12 horas
+  workflow_dispatch:  # Ejecución manual
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Timeout más largo
+    timeout-minutes: 30
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 1  # Solo último commit, más rápido
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           
-      - name: Instalar dependencias
-        run: pip install requests
-        
-      - name: Ejecutar fetch
-        run: python fetch.py
-        
-      - name: Commit y push de cambios
+      - name: Install dependencies
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add resultados/ recintos_light.json 2>/dev/null || true
-          git diff --quiet && git diff --staged --quiet || git commit -m "Actualizar datos electorales [skip ci]"
-          git push
+          pip install requests
+      
+      - name: Run fetch script
+        run: python fetch.py
+        continue-on-error: false
+      
+      - name: Commit and push changes
+        run: |
+          # Configurar git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Agregar los archivos modificados
+          git add resultados/recintos_light.json
+          git add resultados/recintos_resultados.json
+          git add resultados/*.json
+          
+          # Verificar si hay cambios
+          if git diff --cached --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "Actualizar datos electorales [skip ci]"
+            git push
+            echo "✅ Cambios subidos exitosamente"
+          fi
