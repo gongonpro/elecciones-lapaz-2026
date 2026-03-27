@@ -25,7 +25,7 @@ jobs:
         run: pip install requests
 
       - name: Correr fetch.py
-        run: python elecciones-lapaz-2026/fetch.py
+        run: python fetch.py
 
       - name: Commit y push si hay cambios
         run: |
