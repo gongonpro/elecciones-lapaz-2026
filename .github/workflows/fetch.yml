@@ -1,36 +1,33 @@
-name: Actualizar resultados OEP
-
+name: Actualizar datos electorales
 on:
   schedule:
-    - cron: '0 * * * *'   # cada hora
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 */12 * * *'  # Cada 12 horas (menos frecuente)
+  workflow_dispatch:  # Permite ejecución manual
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 30  # Timeout más largo
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v3
         with:
-          python-version: '3.11'
-
+          fetch-depth: 1  # Solo último commit, más rápido
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
       - name: Instalar dependencias
         run: pip install requests
-
-      - name: Correr fetch.py
+        
+      - name: Ejecutar fetch
         run: python fetch.py
-
-      - name: Commit y push si hay cambios
+        
+      - name: Commit y push de cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add resultados/
-          git diff --staged --quiet || git commit -m "datos: actualización $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add resultados/ recintos_light.json 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Actualizar datos electorales [skip ci]"
           git push
