@@ -23,7 +23,7 @@ function obtenerColorPorGanador(recinto) {
 
 // Función para calcular radio del marcador basado en inscritos
 function calcularRadio(inscritos) {
-    return Math.max(5, Math.min(14, 5 + Math.log10(inscritos || 100) * 1.2));
+    return Math.max(3, Math.min(8, 3 + Math.log10(inscritos || 100) * 1.2));
 }
 
 // Cargar datos de recintos
